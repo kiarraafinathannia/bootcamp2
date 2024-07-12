@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catalogue page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="mx-auto space-y-5">
+
+    <!-- Header Section -->
+    <div class="container mx-sm m-10">
+        <div class="flex flex-wrap justify-between items-center">
+            <div class="flex items-center space-x-4 md:space-x-10">
+                <img
+                    alt="Logo Edspert"
+                    src="../Component/logo edspert 1.png"
+                    class="w-[142px] h-[32px]"
+                />
+                
+                <a href="#" class="text-md font-semibold text-[#667085]">
+                    Home
+                </a>
+                
+                <div class="flex space-x-2">
+                    <a href="#" class="text-md font-semibold text-[#667085]">
+                        Products
+                    </a>
+                    <img
+                        alt="Drop down"
+                        src="../Component/chevron-down.png"
+                        class="mt-[1.5px] w-[20px] h-[20px]"
+                    />
+                </div>
+                <div class="flex space-x-2">
+                    <a href="#" class="text-md font-semibold text-[#667085]">
+                        Resources
+                    </a>
+                    <img
+                        alt="Drop down"
+                        src="../Component/chevron-down.png"
+                        class="mt-[1.5px] w-[20px] h-[20px]"
+                    />
+                </div>
+                
+                <a href="#" class="text-md font-semibold text-[#667085]">
+                    Pricing
+                </a>
+                
+            </div>
+
+            <div class="flex items-center space-x-4 md:space-x-10 mt-4 md:mt-0">
+                <button class="text-md font-semibold text-[#667085]">
+                    Login
+                </button>
+                <button class="bg-[#7F56D9] text-md font-semibold 
+                text-white rounded-[8px] px-2.5 py-4.5 object-fill h-[44px] w-[95px]">
+                    Sign Up
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+
+    <section class="flex justify-center flex-col items-center h-[680px] bg-[#F9F5FF] relative">
+        <div class="flex flex-col items-center px-8 space-y-4">
+            <p class="flex justify-center items-center text-sm font-medium text-[#6941C6] bg-[#EDE9FE] rounded-2xl px-4 py-1.5">
+                Intensive Bootcamp
+            </p>
+            <p class="text-5xl font-semibold text-[#42307D]">
+                Upskill Your Talent!
+            </p>
+        </div>
+
+        <div class="flex flex-col items-center mt-4 px-8 space-y-6">
+            <p class="text-xl text-[#42307D]">
+                Kembangkan potensimu bersama Edspert
+            </p>
+
+            <div class="relative">
+                <span class="absolute inset-y-0 left-0 flex items-center pl-3">
+                <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m1.83-5.07a7.5 7.5 0 11-15 0 7.5 7.5 0 0115 0z"/>
+                </svg>
+                </span>
+                <input type="text" class="pl-10 pr-4 py-2 w-80 h-[48px] border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" placeholder="Search">
+            </div>
+        
+        </div>
+
+        <img
+        alt="background"
+        src="../Component/Background pattern.png"
+        class="absolute bottom-0 left-0 w-full h-40 object-cover"
+        />
+    </section>
+
+    <!-- Card Section -->
+<div class="container mx-sm m-10">
+    <div class="flex flex-wrap justify-center">
+        <div id="product-list" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        </div>
+    </div>
+</div>
+
+
+    <!-- Pagination -->
+    <div class="flex space-y-[40px] justify-center">
+        <nav aria-label="Page navigation example" class="flex justify-center mt-8">
+            <ul class="flex items-center text-sm">
+                <li>
+                    <a href="#" aria-current="page" class="flex items-center justify-center px-[16px] py-[10px] text-[#1D2939] text-sm font-medium bg-white border border-1 border-[#D0D5DD] rounded-l-lg">
+                        <svg class="w-2.5 h-2.5 mr-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
+                        </svg>
+                        Previous
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center justify-center px-[16px] py-[10px] text-[#1D2939] text-sm font-medium bg-[#F9FAFB] border border-1 border-[#D0D5DD]">1</a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center justify-center px-[16px] py-[10px] text-[#344054] text-sm font-medium bg-white border border-1 border-[#D0D5DD]">2</a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center justify-center px-[16px] py-[10px] text-[#344054] text-sm font-medium bg-white border border-1 border-[#D0D5DD]">3</a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center justify-center flex items-center justify-center px-[16px] py-[10px] text-[#344054] text-sm font-medium bg-white border border-1 border-[#D0D5DD]">4</a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center justify-center flex items-center justify-center px-[16px] py-[10px] text-[#344054] text-sm font-medium bg-white border border-1 border-[#D0D5DD]">5</a>
+                </li>
+                <li>
+                    <a href="#" class="flex items-center justify-center text-[#1D2939] text-sm font-medium px-[16px] py-[10px] text-[#1D2939] text-sm font-medium bg-white border border-1 border-[#D0D5DD] rounded-r-lg">
+                        Next
+                        <svg class="w-2.5 h-2.5 ml-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- Footer Section -->
+    
+    <!-- Footer -->
+    <footer class="bg-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-6 gap-6">
+                <!-- Product Column -->
+                <div>
+                    <h3 class="text-sm font-semibold mb-3 text-[#98A2B3]">Product</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Overview</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Features</a></li>
+                        <div class="flex justify-between ">
+                            <div class="flex items-center space-x-[8px]">
+                                <li><a href="#" class="text-md font-semibold text-[#667085]">Solutions</a></li>
+                                <p class="flex justify-center items-center bg-[#EDE9FE] rounded-2xl px-[8px] py-[2px] text-xs font-medium text-[#027A48]">New</p>             
+                            </div>
+                        </div>
+                        
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Tutorials</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Pricing</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Releases</a></li>
+                    </ul>
+                </div>
+                <!-- Company Column -->
+                <div>
+                    <h3 class="text-sm font-semibold mb-3 text-[#98A2B3]">Company</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">About us</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Careers</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Press</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">News</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Media kit</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Resources Column -->
+                <div>
+                    <h3 class="text-sm font-semibold mb-3 text-[#98A2B3]">Resources</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Blog</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Newsletter</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Events</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Help centre</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Tutorials</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Support</a></li>
+                    </ul>
+                </div>
+                <!-- Use Cases Column -->
+                <div>
+                    <h3 class="text-sm font-semibold mb-3 text-[#98A2B3]">Use cases</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Startups</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Enterprise</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Government</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">SaaS</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Marketplaces</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Ecommerce</a></li>
+                    </ul>
+                </div>
+                <!-- Social Column -->
+                <div>
+                    <h3 class="text-sm font-semibold mb-3 text-[#98A2B3]">Social</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Twitter</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">LinkedIn</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Facebook</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">GitHub</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">AngelList</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Dribbble</a></li>
+                    </ul>
+                </div>
+                <!-- Legal Column -->
+                <div>
+                    <h3 class="text-sm font-semibold mb-3 text-[#98A2B3]">Legal</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Terms</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Privacy</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Cookies</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Licenses</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Settings</a></li>
+                        <li><a href="#" class="text-md font-semibold text-[#667085]">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex justify-between items-center mt-12 border-t pt-6">
+                <a href="#" class="flex items-center space-x-2">
+                    <img src="../Component/logo edspert 1.png" alt="Edspter.id" class="h-6">
+                </a>
+                <span class="text-md font-regular text-[#98A2B3]">&copy; 2024 Untitled UI. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

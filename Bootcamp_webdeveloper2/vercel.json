@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "Catalogue.html", "use": "@vercel/static" },
+      { "src": "Details.html", "use": "@vercel/static" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/Catalogue.html" },
+      { "src": "/(.*)", "dest": "/Details.html" }
+    ]
+  }
+  
